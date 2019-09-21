@@ -1,7 +1,9 @@
 def consolidate_cart(cart)
   new_cart = {}
   cart.each{ |item_array|
-    item_array
+    item_array.each{
+      
+    }
   }
 end
 
