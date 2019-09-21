@@ -17,6 +17,7 @@ def apply_coupons(cart, coupons)
   coupons.each{|coupon|
     item = coupon[:item]
     if cart[item] && cart[item][:count] >= coupon[:num]
+    end 
   }
   cart
 end
