@@ -50,5 +50,5 @@ def checkout(cart, coupons)
   clearance_cart.each do |item, attribute_hash|
     total += (attribute_hash[:price] * attribute_hash[:count])
   end
-  total 
+  total = (total * .9)
 end
