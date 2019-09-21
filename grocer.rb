@@ -33,8 +33,8 @@ def apply_coupons(cart, coupons)
 end
 
 def apply_clearance(cart)
-  cart.each{ |item|
-    
+  cart.each{ |item, attribute_hash|
+    if cart[item]
   }
 end
 
