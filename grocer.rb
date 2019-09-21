@@ -2,7 +2,7 @@ def consolidate_cart(cart)
   new_cart = {}
   cart.each{ |item_array|
     item_array.each{ |item, attribute_hash|
-      if new_cart[item]
+      if new_cart.has_key?()
         new_cart[:count] += 1
       else
         new_cart[item] = attribute_hash
