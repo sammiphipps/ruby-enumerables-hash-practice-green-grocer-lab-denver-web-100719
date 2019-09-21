@@ -24,6 +24,8 @@ def apply_coupons(cart, coupons)
           cart["#{item} W/COUPON"][:price] = coupon[:cost]
           cart["#{item} W/COUPON"][:clearance] = cart[item][:clearance]
           cart["#{item} W/COUPON"][:count] = 1
+        end 
+        
     }
   }
 end
