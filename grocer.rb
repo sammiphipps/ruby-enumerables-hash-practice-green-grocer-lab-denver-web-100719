@@ -2,7 +2,7 @@ def consolidate_cart(cart)
   new_cart = {}
   cart.each{ |item_array|
     item_array.each{ |item, attribute_hash|
-      
+      if 
     }
   }
 end
